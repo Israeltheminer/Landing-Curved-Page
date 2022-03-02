@@ -1,0 +1,394 @@
+
+body {
+  font-family: 'Open sans';
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-size: 18px;
+  position: relative;
+}
+
+.top-container {
+  position: relative;
+  height: 300px;
+}
+
+.top-logo {
+  display: inline-block;
+  position: absolute;
+  left: 80px;
+  top: 90px;
+}
+
+.top-button {
+  position: absolute;
+  right: 80px;
+  top: 90px;
+  border: 2px solid;
+  background-color: inherit;
+  width: 120px;
+  border-radius: 50px;
+  border-color: hsl(322, 100%, 66%);
+  height: 35px;
+  box-shadow: 0 0 5px hsl(208, 11%, 55%)
+}
+
+.top-button a {
+  color: hsl(322, 100%, 66%);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.second-container {
+  position: relative;
+  height: 400px;
+}
+
+.intro {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.head-title {
+  font-size: 35px;
+  font-family: 'Poppins';
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.intro p {
+  display: inline-block;
+  position: relative;
+  width: 620px;
+}
+
+.mid-button {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 70%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(322, 100%, 66%);
+  width: 300px;
+  border-radius: 50px;
+  height: 55px;
+  box-shadow: 0 0 5px hsl(208, 11%, 55%);
+  border: 0;
+}
+
+.mid-button a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.third-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.mockups {
+  display: inline-block;
+  position: relative;
+  width: 900px;
+}
+
+.fouth-container {
+  position: relative;
+  height: 300px;
+}
+
+.fouth-container h1 {
+  font-size: 80px;
+  margin: 0 auto;
+}
+
+.communities {
+  display: inline-block;
+  position: absolute;
+  left: 25%;
+  top: 45px;
+}
+
+.messages {
+  display: inline-block;
+  position: absolute;
+  right: 25%;
+  top: 45px;
+}
+
+.fifth-container {
+  position: relative;
+}
+
+.call-to-action {
+  font-size: 21px;
+  font-weight: 700;
+  font-family: 'Poppins';
+}
+
+.first-box {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 375px;
+  background-color: hsl(207, 100%, 98%);
+}
+
+.first-box .call-to-action {
+  position: absolute;
+  display: inline-block;
+  left: 100px;
+  top: 125px;
+}
+
+.first-box .mid-container-paragraphs {
+  position: absolute;
+  display: inline-block;
+  left: 100px;
+  top: 165px;
+  width: 35%;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.grow-together {
+  display: inline-block;
+  position: absolute;
+  width: 350px;
+  top: 45px;
+  right: 50px;
+}
+
+.second-box {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 375px;
+}
+
+.flow-text {
+  display: inline-block;
+  position: absolute;
+  width: 35%;
+  right: 50px;
+}
+.second-box .call-to-action {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 125px;
+  font-family: 'Poppins' sans-serif;
+  font-weight: 700;
+}
+
+.second-box .mid-container-paragraphs {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 165px;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.flowing-conversation {
+  display: inline-block;
+  width: 350px;
+  position: absolute;
+  left: 100px;
+  top: 45px;
+}
+
+.third-box {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 375px;
+  background-color: hsl(207, 100%, 98%);
+}
+
+.third-box .call-to-action {
+  position: absolute;
+  display: inline-block;
+  left: 100px;
+  top: 125px;
+  font-family: 'Poppins' sans-serif;
+}
+
+.third-box .mid-container-paragraphs {
+  position: absolute;
+  display: inline-block;
+  left: 100px;
+  top: 165px;
+  width: 35%;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.your-users {
+  display: inline-block;
+  position: absolute;
+  width: 350px;
+  top: 45px;
+  right: 50px;
+}
+
+.bg-top {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.bg-bottom {
+  position: relative;
+  bottom: 6px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  vertical-align: top;
+}
+
+.bottom-box {
+  display: inline-block;
+  position: relative;
+  background-color: white;
+  width: 50%;
+  height: 250px;
+  z-index: 10;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.bottom-box .call-to-action {
+  font-family: 'Poppins' sans-serif;
+  margin: 75px auto 20px auto;
+}
+
+.bottom-button {
+  display: inline-block;
+  position: relative;
+  background-color: hsl(322, 100%, 66%);
+  width: 50%;
+  border-radius: 40px;
+  height: auto;
+  box-shadow: 0 0 5px hsl(208, 11%, 55%)
+}
+.bottom-button:hover {
+  opacity: 0.75;
+}
+
+.bottom-button a{
+  text-align: center;
+  margin: 15px;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  height: auto;
+}
+
+.bottom-container {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  height: 350px;
+  position: relative;
+  font-size: 13px;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+.location-grid {
+  display: inline;
+  position: absolute;
+  left: 100px;
+  top: 100px
+}
+
+.location-grid table {
+  display: inline-block;
+  width: 365px;
+  text-align: left;
+  border-collapse: separate;
+  border-spacing: 20px 0;
+  margin: 0;
+  padding: 0;
+}
+
+.bottom-logo {
+  position: absolute;
+  display: inline-block;
+  left: 120px;
+  top: 50px;
+  width: 150px;
+}
+
+.tips {
+  position: absolute;
+  display: inline-block;
+  text-align: left;
+  top: 50px;
+  width: 23%;
+  left: 55%;
+}
+
+.email-input {
+  font-size: 14px;
+  width: 250px;
+  height: 28px;
+  position: absolute;
+  display: inline-block;
+  text-align: left;
+  top: 180px;
+  left: 55%;
+  border-radius: 5px;
+  border: 0 none;
+}
+
+.subscribe-button {
+  font-size: 14px;
+  height: 28px;
+  position: absolute;
+  display: inline-block;
+  text-align: left;
+  top: 180px;
+  left:75%;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  border-radius: 5px;
+  border: 0 none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  bottom: 0;
+}
