@@ -1,134 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="<sha384-></sha384->1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css" type="text/css">
-  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+  <title>Huddle</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <div class="top-container">
-    <div class="top-logo">
-      <img src="images\logo.svg" alt="logo">
-    </div>
+  <div class="container-fluid top-container">
 
-    <button class="top-button">
-      <a href="#">Try it Free</a>
-    </button>
-  </div>
-
-  <div class="second-container">
-    <div class="intro">
-      <h2 class="head-tit">Build The Community Your Fans Will Love</h2>
-      <p>Huddle re-imagines the way we build communities. You have a voice, but so does
-      your audience. Create connections with your users as you engage in genuine discussion.</p>
-    </div>
-
-    <button class="mid-button">
-      <a href="#">Get Started For Free</a>
-    </button>
-  </div>
-
-  <div class="third-container">
-      <img class="mockups" src="images\screen-mockups.svg" alt="Screens">
-  </div>
-
-  <div class="fouth-container">
-    <div class="communities">
-      <img src="images\icon-communities.svg">
-      <h1>1.4k+</h1>
-      <p>Communities Formed</p>
-    </div>
-
-    <div class="messages">
-      <img src="images\icon-messages.svg">
-      <h1>2.7m+</h1>
-      <p>Messages Sent</p>
-    </div>
-  </div>
-
-  <div class="fifth-container">
-    <div>
-      <img class="bg-top 1" src="images\bg-section-top-desktop-1.svg">
-    </div>
-    <div class="first-box">
-      <p class="call-to-action">Grow Together</p>
-      <p class="mid-container-paragraphs">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
-      <img class="grow-together" src="images\illustration-grow-together.svg" alt="Grow">
-    </div>
-    <div>
-      <img class="bg-bottom 1" src="images\bg-section-bottom-desktop-1.svg">
-    </div>
-
-    <div class="second-box">
-      <div class="flow-text">
-        <p class="call-to-action">Flowing Conversations</h2>
-        <p class="mid-container-paragraphs">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+    <div class="row first-row pt-3">
+      <div class="col">
+        <img class="logo" src="images\logo.svg" alt="Hurdle">
       </div>
-      <img class="flowing-conversation" src="images\illustration-flowing-conversation.svg" alt="Conversations">
+      <div class="col">
+        <div class="top-button-div">
+          <button class="top-button btn" type="button" name="button"><a href="#">Try It Free</a></button>
+        </div>
+      </div>
     </div>
 
-    <div>
-      <img class="bg-top 2" src="images\bg-section-top-desktop-2.svg">
-    </div>
-    <div class="third-box">
-      <p class="call-to-action">Your Users</p>
-      <p class="mid-container-paragraphs">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
-      <img class="your-users" src="images\illustration-your-users.svg" alt="Users">
-    </div>
-    <div>
-      <img class="bg-bottom 2" src="images\bg-section-bottom-desktop-2.svg">
-    </div>
-    <div>
-      <div class="bottom-box">
-        <p class="call-to-action">Ready To Build Your Community?</p>
-        <div class="bottom-button">
+    <div class=" row second-row">
+      <div class=" col-12 intro">
+        <h2>Build The Community Your Fans Will Love</h2>
+        <p>Huddle re-imagines the way we build communities. You have a voice, but so does
+          your audience. Create connections with your users as you engage in genuine discussion.</p>
+      </div>
+      <div class="mid-button-div">
+        <button class="btn btn-lg mid-button">
           <a href="#">Get Started For Free</a>
+        </button>
+      </div>
+    </div>
+
+    <div class="row third-row">
+      <div class="col-12">
+        <img class="mockups" src="images\screen-mockups.svg" alt="Screens">
+      </div>
+    </div>
+
+    <div class="row fouth-row pt-5">
+      <div class="col-lg-6 col-md-6 features-column">
+        <div>
+          <div class="features-img">
+            <img src="images\icon-communities.svg">
+          </div>
+          <h1>1.4k+</h1>
+          <p class="big-text">Communities Formed</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 features-column">
+        <div>
+          <div class="features-img">
+            <img src="images\icon-messages.svg">
+          </div>
+          <h1>2.7m+</h1>
+          <p class="big-text">Messages Sent</p>
         </div>
       </div>
     </div>
   </div>
 
-  <img class="bg-top 3" src="images\bg-footer-top-desktop.svg">
-  <div class="bottom-container">
-    <img class="bottom-logo" src="images\bottom-logo.svg" alt="logo">
-    <div class="location-grid">
-      <table>
-        <tr>
-          <td><img src="images\icon-location.svg" alt="location"></td><td><p>Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p></td>
-        </tr>
-        <tr>
-          <td><img src="images\icon-phone.svg" alt="phone"></td><td><p>+1-543-123-4567</p></td>
-        </tr>
-        <tr>
-          <td><img src="images\icon-email.svg" alt=""></td><td><p>helpdesk@huddle.com</p></td>
-        </tr>
-      </table>
+  <div class="second-container">
+    <div class="container-fluid">
+      <div class="row">
+        <img class="bg-top 1" src="images\bg-section-top-desktop-1.svg">
+      </div>
+      <div class="row blue-box">
+        <div class="col-lg-6 col-md-12 text-column order-1 order-md-2">
+          <h2 class="box-heading">Grow Together</h2>
+          <p class="box-text">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+        </div>
+        <div class="col-lg-6 col-md-12 image-column order-1 order-md-1">
+          <img class="box-image" src="images\illustration-grow-together.svg" alt="Grow">
+        </div>
+      </div>
+      <div class="row">
+        <img class="bg-bottom 1" src="images\bg-section-bottom-desktop-1.svg">
+      </div>
     </div>
 
-    <div class="tips">
-      <h3>Newsletter</h3>
-      <p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never
-      send you spam or pass on your email address</p>
+    <div class="container-fluid">
+      <div class="row white-box">
+        <div class="col-lg-6 col-md-12 text-column order-2 order-md-2">
+          <h2 class="box-heading">Flowing Conversations</h2>
+          <p class="box-text">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+        </div>
+        <div class="col-lg-6 col-md-12 image-column order-1 order-md-1">
+          <img class="box-image" src="images\illustration-flowing-conversation.svg" alt="Conversations">
+        </div>
+      </div>
     </div>
 
-    <div class="form">
-      <form class="subcription" action="mailto:israeliyanda5@gmail.com" method="post">
-        <input type="email" id="email" name="" value="" class="email-input">
-        <input type="submit" name="" value="Subscribe" class="subscribe-button">
-      </form>
+    <div class="container-fluid">
+      <div class="row">
+        <img class="bg-top 1" src="images\bg-section-top-desktop-1.svg">
+      </div>
+      <div class="row blue-box">
+        <div class="col-lg-6 col-md-12 text-column order-1 order-md-2">
+          <h2 class="box-heading">Your Users</h2>
+          <p class="box-text">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+        </div>
+        <div class="col-lg-6 col-md-12 image-column order-1 order-md-1">
+          <img class="box-image" src="images\illustration-your-users.svg" alt="Users">
+        </div>
+      </div>
+      <div class="row">
+        <img class="bg-bottom 1" src="images\bg-section-bottom-desktop-1.svg">
+      </div>
+    </div>
+    <div class="container">
+      <div class="bottom-box col">
+        <div class="bottom-box-content text-center">
+          <div>
+            <h3>Ready To Build Your Community?</h3>
+          </div>
+          <div class="bottom-button-div">
+            <button class="bottom-button btn" type="button" name="button"><a href="#">Get Started For Free</a></button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="mailto:israeliyanda5@gmail.com">Israel Iyanda</a>.
-    </p>
-  </footer>
+
+  <div class="container-fluid">
+    <div class="row bottom-background">
+      <img class="bg-top 3 g-0" src="images\bg-footer-top-desktop.svg">
+    </div>
+  </div>
+  <div class="container-fluid bottom-container">
+    <div class="row bottom-row pb-5">
+
+      <div class="col-lg-6 col-md-12 contact-column">
+        <div class="bottom-logo-div">
+          <img class="bottom-logo pb-3" src="images\bottom-logo.svg" alt="logo">
+        </div>
+        <table class="table table-sm table-borderless" style="color: white;">
+          <tr class="align-middle">
+            <td><img src="images\icon-location.svg" alt="location"></td>
+            <td class="align-middle">
+              <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="images\icon-phone.svg" alt="phone"></td>
+            <td>
+              <p>+1-543-123-4567</p>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="images\icon-email.svg" alt=""></td>
+            <td>
+              <p>helpdesk@huddle.com</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="col-lg-6 col-md-12 tips-column">
+        <table>
+          <tr>
+            <td>
+              <h3>Newsletter</h3>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never
+                send you spam or pass on your email address</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="form">
+                <form class="subcription" action="mailto:israeliyanda5@gmail.com" method="post">
+                  <input type="email" id="email" name="" value="" class="email-input">
+                  <input type="submit" name="" value="Subscribe" class="subscribe-button">
+                </form>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+
+
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="mailto:israeliyanda5@gmail.com">Israel Iyanda</a>.
+      </p>
+    </footer>
+  </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
+
 </html>

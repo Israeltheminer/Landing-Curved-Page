@@ -1,279 +1,179 @@
 
 body {
-  font-family: 'Open sans';
+  font-family: 'Poppins', sans-serif;
   text-align: center;
   width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  font-size: 18px;
-  position: relative;
+}
+
+h1 {
+  font-family: 'Poppins';
+  font-size: 6rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  width: 100%;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 800;
 }
 
 .top-container {
   position: relative;
-  height: 300px;
+  height: auto;
+  width: 100%;
+  padding: 3% 7% 5%;
 }
 
-.top-logo {
-  display: inline-block;
-  position: absolute;
-  left: 80px;
-  top: 90px;
+.first-row {
+  height: auto;
+}
+
+/* HURDLE LOGO */
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 40%;
+}
+
+/* TRY IT FREE BUTTON */
+.top-button-div {
+  text-align: right;
+  height: 4rem;
 }
 
 .top-button {
-  position: absolute;
-  right: 80px;
-  top: 90px;
-  border: 2px solid;
-  background-color: inherit;
-  width: 120px;
-  border-radius: 50px;
-  border-color: hsl(322, 100%, 66%);
-  height: 35px;
-  box-shadow: 0 0 5px hsl(208, 11%, 55%)
+  width: 30%;
+  height: 60%;
+  border-radius: 30px;
+  box-shadow: 0 0 5px hsl(208, 11%, 55%);
+  border: 1px solid hsl(322, 100%, 66%);
 }
 
 .top-button a {
-  color: hsl(322, 100%, 66%);
   text-decoration: none;
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 1rem;
+  color: hsl(322, 100%, 66%);
 }
 
-.second-container {
-  position: relative;
-  height: 400px;
+
+.second-row {
+  margin: 10% auto;
 }
 
 .intro {
-  display: inline-block;
   margin: 0 auto;
-}
-
-.head-title {
-  font-size: 35px;
-  font-family: 'Poppins';
-  margin-bottom: 5px;
-  font-weight: 700;
 }
 
 .intro p {
   display: inline-block;
   position: relative;
-  width: 620px;
+  width: 70%;
+  font-size: 1.2rem;
+}
+
+.mid-button-div {
+  text-align: center;
+  margin: 2rem auto 0rem;
 }
 
 .mid-button {
-  position: absolute;
-  left: 50%;
-  right: 50%;
-  top: 70%;
-  bottom: 50%;
-  transform: translate(-50%, -50%);
   background-color: hsl(322, 100%, 66%);
-  width: 300px;
+  width: 35%;
   border-radius: 50px;
-  height: 55px;
+  height: 5rem;
   box-shadow: 0 0 5px hsl(208, 11%, 55%);
-  border: 0;
 }
 
 .mid-button a {
   color: white;
   text-decoration: none;
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.third-container {
-  position: relative;
-  margin-bottom: 20px;
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 
 .mockups {
-  display: inline-block;
   position: relative;
-  width: 900px;
+  width: 90%;
 }
 
-.fouth-container {
-  position: relative;
-  height: 300px;
-}
-
-.fouth-container h1 {
-  font-size: 80px;
+.features-column div {
+  width: 15rem;
   margin: 0 auto;
 }
 
-.communities {
-  display: inline-block;
-  position: absolute;
-  left: 25%;
-  top: 45px;
+.features-img {
+  text-align: left;
 }
 
-.messages {
-  display: inline-block;
-  position: absolute;
-  right: 25%;
-  top: 45px;
+.big-text {
+  font-size: 1.2rem;
+  opacity: 50%;
 }
 
-.fifth-container {
-  position: relative;
-}
 
-.call-to-action {
-  font-size: 21px;
-  font-weight: 700;
-  font-family: 'Poppins';
-}
-
-.first-box {
-  display: inline-block;
+/* SECOND CONTAINER */
+.mid-container {
   position: relative;
   width: 100%;
-  height: 375px;
+}
+
+.text-column {
+  padding-top: 5rem;
+}
+
+.image-column {
+  text-align: center;
+}
+
+.blue-box {
   background-color: hsl(207, 100%, 98%);
+  height: 130%;
 }
 
-.first-box .call-to-action {
-  position: absolute;
-  display: inline-block;
-  left: 100px;
-  top: 125px;
+.white-box {
+  margin: 6% auto;
 }
 
-.first-box .mid-container-paragraphs {
-  position: absolute;
-  display: inline-block;
-  left: 100px;
-  top: 165px;
-  width: 35%;
-  font-weight: 400;
-  text-align: left;
-  line-height: 1.5;
-}
-
-.grow-together {
-  display: inline-block;
-  position: absolute;
-  width: 350px;
-  top: 45px;
-  right: 50px;
-}
-
-.second-box {
-  display: inline-block;
-  position: relative;
+.box-heading {
   width: 100%;
-  height: 375px;
 }
 
-.flow-text {
+.box-text {
   display: inline-block;
-  position: absolute;
-  width: 35%;
-  right: 50px;
-}
-.second-box .call-to-action {
-  position: absolute;
-  display: inline-block;
-  left: 0;
-  top: 125px;
-  font-family: 'Poppins' sans-serif;
-  font-weight: 700;
-}
-
-.second-box .mid-container-paragraphs {
-  position: absolute;
-  display: inline-block;
-  left: 0;
-  top: 165px;
-  font-weight: 500;
-  text-align: left;
-  line-height: 1.5;
-}
-
-.flowing-conversation {
-  display: inline-block;
-  width: 350px;
-  position: absolute;
-  left: 100px;
-  top: 45px;
-}
-
-.third-box {
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  height: 375px;
-  background-color: hsl(207, 100%, 98%);
-}
-
-.third-box .call-to-action {
-  position: absolute;
-  display: inline-block;
-  left: 100px;
-  top: 125px;
-  font-family: 'Poppins' sans-serif;
-}
-
-.third-box .mid-container-paragraphs {
-  position: absolute;
-  display: inline-block;
-  left: 100px;
-  top: 165px;
-  width: 35%;
   font-weight: 400;
-  text-align: left;
+  position: relative;
+  font-size: 14px;
   line-height: 1.5;
 }
 
-.your-users {
+.box-image {
   display: inline-block;
-  position: absolute;
-  width: 350px;
-  top: 45px;
-  right: 50px;
+  width: 70%;
 }
 
 .bg-top {
-  margin: 0;
   padding: 0;
-  width: 100%;
-  vertical-align: bottom;
+  border: none;
 }
 
 .bg-bottom {
-  position: relative;
-  bottom: 6px;
-  margin: 0;
   padding: 0;
-  width: 100%;
-  vertical-align: top;
 }
 
 .bottom-box {
   display: inline-block;
   position: relative;
   background-color: white;
-  width: 50%;
-  height: 250px;
-  z-index: 10;
   text-align: center;
-  margin: 0;
-  padding: 0;
+  margin: 10% auto;
 }
 
-.bottom-box .call-to-action {
-  font-family: 'Poppins' sans-serif;
-  margin: 75px auto 20px auto;
-}
 
 .bottom-button {
   display: inline-block;
@@ -284,6 +184,7 @@ body {
   height: auto;
   box-shadow: 0 0 5px hsl(208, 11%, 55%)
 }
+
 .bottom-button:hover {
   opacity: 0.75;
 }
@@ -301,94 +202,196 @@ body {
 
 .bottom-container {
   background-color: hsl(192, 100%, 9%);
+  border: none;
+}
+
+.bottom-row {
   color: white;
-  height: 350px;
+  height: auto;
   position: relative;
-  font-size: 13px;
-  margin-bottom: 0;
-  padding-bottom: 20px;
-}
-.location-grid {
-  display: inline;
-  position: absolute;
-  left: 100px;
-  top: 100px
-}
-
-.location-grid table {
-  display: inline-block;
-  width: 365px;
+  font-size: 0.85rem;
   text-align: left;
-  border-collapse: separate;
-  border-spacing: 20px 0;
-  margin: 0;
-  padding: 0;
 }
 
-.bottom-logo {
-  position: absolute;
-  display: inline-block;
-  left: 120px;
-  top: 50px;
-  width: 150px;
+.bottom-container table {
+  width: 70%;
 }
 
-.tips {
-  position: absolute;
-  display: inline-block;
-  text-align: left;
-  top: 50px;
-  width: 23%;
-  left: 55%;
+.contact-column {
+  padding-left: 10%;
+  padding-top: 3%;
+  margin: 0 auto;
+}
+
+.contact-column p {
+  width:100%;
+}
+
+.tips-column {
+  padding-left: 10%;
+  padding-top: 3%;
+  margin: 0 auto;
+}
+
+.tips-column p {
+  width:100%;
 }
 
 .email-input {
-  font-size: 14px;
-  width: 250px;
-  height: 28px;
-  position: absolute;
+  width: 15rem;
+  height: 2rem;
   display: inline-block;
   text-align: left;
-  top: 180px;
-  left: 55%;
   border-radius: 5px;
   border: 0 none;
 }
 
 .subscribe-button {
-  font-size: 14px;
-  height: 28px;
-  position: absolute;
+  font-size: 0.9rem;
+  height: 2rem;
   display: inline-block;
   text-align: left;
-  top: 180px;
-  left:75%;
   background-color: hsl(322, 100%, 66%);
   color: white;
-  border-radius: 5px;
-  border: 0 none;
+  border-radius: 10px;
 }
 
 .attribution {
-  font-size: 11px;
+  color: white;
+  font-size: 0.6rem;
   text-align: center;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: white;
+  text-decoration: none;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  background-color: hsl(192, 100%, 9%);
-  color: white;
-  margin: 0;
-  padding: 0;
-  z-index: 10;
-  left: 50%;
-  right: 50%;
-  transform: translate(-50%, -50%);
-  width: 300px;
-  bottom: 0;
+
+@media (max-width: 990px) {
+  .top-container {
+    padding-top: 7%;
+  }
+
+  .intro p {
+    width: 100%;
+  }
+
+  .logo {
+    width: 90%;
+    height: 2.5rem;
+  }
+
+  .top-button {
+    width: 90%;
+    height: 50%;
+  }
+
+  .top-button a {
+    font-size: 0.85rem;
+  }
+
+  .mockups-container {
+    padding: 10%;
+    margin-top: 20%;
+  }
+
+  .top-heading h1 {
+    text-align: center;
+    margin: 10% auto auto;
+    font-size: 3.6rem;
+    width: 40rem;
+  }
+
+  .top-heading p {
+    text-align: center;
+    margin: 1rem auto 2rem;
+    font-weight: 500;
+    font-size: 2rem;
+    width: 50rem;
+  }
+
+  h1 {
+  font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .intro p {
+    font-size: 0.85rem;
+  }
+
+  .mid-button-div {
+    text-align: center;
+  }
+
+  .mid-button {
+    width: 12rem;
+    height: 2.5rem;
+  }
+
+  .mid-button a {
+    font-size: 0.9rem;
+    vertical-align: middle;
+  }
+
+  .big-text {
+    font-size: 0.9rem;
+  }
+
+  .features-column div {
+    width: 10rem;
+    padding-top: 5%;
+  }
+
+  .mid-container {
+    text-align: center;
+  }
+
+  .text-column {
+    text-align: center;
+  }
+
+  .text-column h2 {
+    font-size: 2.5rem;
+  }
+
+  .text-column p {
+    font-size: 1rem;
+    padding: 3% 5% 5%;
+  }
+
+  .image-column img {
+    margin-top: 10%;
+    width: 90%;
+  }
+
+  .bottom-button {
+    width: 60%;
+  }
+
+  .bottom-button a {
+    font-size: 0.85rem;
+    margin: 0px 5px 5px;
+  }
+
+  .bottom-container table {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .bottom-container {
+    font-size: 0.7rem;
+  }
+
+  .bottom-logo {
+    padding-top: 10%;
+    width: 40%;
+  }
+
 }
