@@ -111,7 +111,7 @@ h3 {
 
 .big-text {
   font-size: 1.2rem;
-  opacity: 50%;
+  opacity: 0.5;
 }
 
 
@@ -238,10 +238,10 @@ h3 {
 .email-input {
   width: 15rem;
   height: 2rem;
-  display: inline-block;
+  display: inline;
   text-align: left;
   border-radius: 5px;
-  border: 0 none;
+  border: none;
 }
 
 .subscribe-button {
@@ -253,6 +253,7 @@ h3 {
   color: white;
   border-radius: 10px;
   border: none;
+  margin-left: 5%;
 }
 
 .attribution {
