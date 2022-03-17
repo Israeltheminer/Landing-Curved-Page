@@ -247,7 +247,7 @@ h3 {
 .subscribe-button {
   font-size: 0.9rem;
   height: 2rem;
-  display: inline;
+  display: inline-block;
   text-align: left;
   background-color: hsl(322, 100%, 66%);
   color: white;
@@ -282,7 +282,7 @@ h3 {
     width: 9rem;
   }
 
-  .second-row h2 {
+  .top-container-heading {
     font-size: 1.7rem;
     width: 100%;
     line-height: 1.5;
@@ -360,7 +360,7 @@ h3 {
 
   .bottom-button a {
     font-size: 0.85rem;
-    margin: 0px 5px 5px;
+    margin: 0 5px 5px;
   }
 
   .bottom-row {
