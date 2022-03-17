@@ -18,7 +18,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 800;
 }
 
@@ -38,18 +38,17 @@ h3 {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 40%;
+  width: 45%;
 }
 
 /* TRY IT FREE BUTTON */
 .top-button-div {
   text-align: right;
-  height: 4rem;
+  height: auto;
 }
 
 .top-button {
   width: 30%;
-  height: 60%;
   border-radius: 30px;
   box-shadow: 0 0 5px hsl(208, 11%, 55%);
   border: 1px solid hsl(322, 100%, 66%);
@@ -79,14 +78,13 @@ h3 {
 
 .mid-button-div {
   text-align: center;
-  margin: 2rem auto 0rem;
+  padding-top: 2%;
 }
 
 .mid-button {
   background-color: hsl(322, 100%, 66%);
   width: 35%;
   border-radius: 50px;
-  height: 5rem;
   box-shadow: 0 0 5px hsl(208, 11%, 55%);
 }
 
@@ -171,7 +169,7 @@ h3 {
   position: relative;
   background-color: white;
   text-align: center;
-  margin: 10% auto;
+  margin: 20% auto 15%;
 }
 
 
@@ -254,6 +252,7 @@ h3 {
   background-color: hsl(322, 100%, 66%);
   color: white;
   border-radius: 10px;
+  border: none;
 }
 
 .attribution {
@@ -275,11 +274,17 @@ h3 {
 
   .intro p {
     width: 100%;
+    font-size: 0.85rem;
   }
 
   .logo {
-    width: 90%;
-    height: 2.5rem;
+    width: 9rem;
+  }
+
+  .second-row h2 {
+    font-size: 1.7rem;
+    width: 100%;
+    line-height: 1.5;
   }
 
   .top-button {
@@ -288,7 +293,7 @@ h3 {
   }
 
   .top-button a {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
   }
 
   .mockups-container {
@@ -296,35 +301,16 @@ h3 {
     margin-top: 20%;
   }
 
-  .top-heading h1 {
-    text-align: center;
-    margin: 10% auto auto;
-    font-size: 3.6rem;
-    width: 40rem;
-  }
-
-  .top-heading p {
-    text-align: center;
-    margin: 1rem auto 2rem;
-    font-weight: 500;
-    font-size: 2rem;
-    width: 50rem;
-  }
-
   h1 {
   font-size: 3rem;
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 2.2rem;
   }
 
   h3 {
     font-size: 1.5rem;
-  }
-
-  .intro p {
-    font-size: 0.85rem;
   }
 
   .mid-button-div {
@@ -333,7 +319,6 @@ h3 {
 
   .mid-button {
     width: 12rem;
-    height: 2.5rem;
   }
 
   .mid-button a {
@@ -358,10 +343,6 @@ h3 {
     text-align: center;
   }
 
-  .text-column h2 {
-    font-size: 2.5rem;
-  }
-
   .text-column p {
     font-size: 1rem;
     padding: 3% 5% 5%;
@@ -381,10 +362,15 @@ h3 {
     margin: 0px 5px 5px;
   }
 
+  .bottom-row {
+    font-size: 0.65rem;
+  }
+
   .bottom-container table {
     margin: 0 auto;
-    width: 100%;
+    width: 87%;
   }
+
   .bottom-container {
     font-size: 0.7rem;
   }
@@ -392,6 +378,11 @@ h3 {
   .bottom-logo {
     padding-top: 10%;
     width: 40%;
+    margin-left: 8.5%;
+  }
+
+  .tips-column {
+    padding-top: 10%;
   }
 
 }
