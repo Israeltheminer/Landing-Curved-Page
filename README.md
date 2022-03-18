@@ -1,3 +1,4 @@
 Hurdle Landing page
 
-Hurdle Curved Landing Page
+
+Curved model landing page of hurdle 
